@@ -1,0 +1,39 @@
+ul {
+  list-style-type: none;
+}
+.navbar {
+  width: 100%;
+  /* background-color: #54c07a; */
+  background-image: linear-gradient(to left, #3d3e71, #1b8f2b);
+  font-weight: bold;
+}
+.navbar-li-container {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 20px;
+}
+.navbar-li {
+  list-style: none;
+  color: white;
+  padding-right: 40px;
+  position: relative;
+}
+.navbar-link {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.active {
+  color: #1b8f2b;
+}
+.logo {
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+  margin-right: auto;
+  margin-left: 20px;
+  cursor: pointer;
+  font-family: "Roboto Condensed", sans-serif;
+}

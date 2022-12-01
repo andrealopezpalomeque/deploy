@@ -1,0 +1,78 @@
+.container_detail {
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  word-wrap: break-word;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.summary {
+  width: 60%;
+  margin: 10px 0;
+  line-height: 24px;
+  text-align: center;
+}
+
+.summary,
+.steps {
+  word-wrap: break-word;
+}
+.steps {
+  width: 60%;
+}
+
+.step {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.image-detail {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.button_back {
+  margin-bottom: 20px;
+  align-items: center;
+  border-radius: 10px;
+  padding: 0.2rem 1rem;
+  background-color: #fff;
+}
+
+.button_back:hover {
+  background-color: #1b8f2b;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+}
+
+.dishes_list,
+.diets_list {
+  display: inline-block;
+}
+
+.button_delete {
+  margin-bottom: 20px;
+  align-items: center;
+  border-radius: 10px;
+  padding: 0.2rem 1rem;
+  background-color: #fff;
+}
+.button_delete:hover {
+  background-color: #b22121;
+  box-shadow: 0px 15px 20px rgba(211, 16, 16, 0.341);
+  color: #fff;
+}
+
+.button_detail_container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
